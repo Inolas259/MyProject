@@ -397,7 +397,7 @@ export default function SignIn({ csrfToken }) {
                             </div>
 
                             <div className="flex items-center justify-between pb-6">
-                              <p className="mb-0 mr-2">Already have an Account! Sign In</p>
+                              <p className="mb-0 mr-2">Already have an Account! <span className="text-red-600">Sign In</span></p>
 
 
                             </div>
@@ -680,7 +680,7 @@ export default function SignIn({ csrfToken }) {
                             </div>
 
                             <div className="flex items-center justify-between pb-6">
-                              <p className="mb-0 mr-2">Already have an Account! Sign In</p>
+                              <p className="mb-0 mr-2">Already have an Account!<span className="text-red-600"> Sign In </span></p>
 
 
                             </div>
