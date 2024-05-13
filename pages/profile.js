@@ -16,8 +16,8 @@ function profile() {
             callbackUrl: `${window.location.origin}`,
           })
         }
-      >
-        Sign out
+      
+        Sign out>
       </button>
       {session.user.role === "patient" && <PatientProfile />}
       {session.user.role === "doctor" && <DoctorProfile />}
